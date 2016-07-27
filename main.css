@@ -11,11 +11,16 @@ body {
 a {
 	color: #333;
 	text-decoration: none;
-	transition: color .25s;
+	transition: all .25s;
 }
 
 a:hover {
 	color: #777;
+}
+
+a:active {
+	background-color: #333;
+	color: #FFF;
 }
 
 /* Navigation Bar*/
