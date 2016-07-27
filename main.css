@@ -1,0 +1,78 @@
+/* Generic Navigation Bar Style Sheat */
+/* (C) John Channell, All Rights Reserved. */
+
+/* General */
+body {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	transition: color .25s;
+}
+
+a:hover {
+	color: #777;
+}
+
+/* Navigation Bar*/
+.nav {
+	overflow: hidden;
+	background-color: #555;
+	max-height: auto;
+	color: #FFF;
+}
+
+.nav a {
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border-right: 1px solid #FFF;
+}
+
+.nav a:hover {
+	background-color: #222;
+}
+
+.nav .active,
+.nav .active:hover {
+	background-color: #78AB46;
+}
+
+@media screen and (max-width: 600px){
+	.nav {
+		float: none;
+	}
+	.nav a {
+		max-height: 12.5%;
+		border: none;
+		display: block;
+		width: 100%;
+	}
+}
+
+/* Header */
+.head {
+	max-width: 75%;
+	margin-left: 12.5%;
+	background-color: #DDD;
+	border-radius: 1%;
+}
+
+.head h1,
+.head h2,
+.head h3,
+.head h4,
+.head h5,
+.head h6,
+.head p {
+	width: 50%;
+	margin-left: 25%;
+	padding: 1% 0% 1% 0%;
+}
