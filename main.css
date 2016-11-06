@@ -4,6 +4,7 @@
 	/* Variables */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 :root {
   --primary: #99F555;
   --secondary: #99F555;
@@ -179,4 +180,49 @@ a:active {
 	padding: 0% 5%;
 	margin: 0%;
 	color: #000;
+}
+
+	/* Third */
+
+.third {
+	padding: 0% 1%;
+	box-sizing: border-box;
+	line-height: 25px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	height: auto;
+	max-width: 100%;
+}
+
+.thirdc {
+	max-width: 25%;
+	padding: 0% 1%;
+	display: inline-block;
+	text-align: left;
+}
+
+	/* Tooltip */
+
+.tooltip {
+	padding: 0% 5%;
+    position: relative;
+    background-color: var(--primary);
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: black;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: 75%;
+}
+
+.tooltip:hover .tooltiptext {
+	padding: 0% 5%;
+    visibility: visible;
 }
